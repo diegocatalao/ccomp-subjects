@@ -24,10 +24,10 @@ int main(int argc,char* argv[]) {
 	// stdin: dispositivo de entrada padrão (geralmente o teclado)
 	// palindromo: uma palavra que escrita ao contrario seja ela mesma
 
-	char palavra[256]; 												// palavra e seu tamanho máximo de entrada
+	char palavra[256]; 													// palavra e seu tamanho máximo de entrada
 	
 	printf("Esta palavra é um palindromo?: ");
-	fgets(palavra, sizeof(palavra), stdin);							// pega a palavra não ignorando o espaço
+	fgets(palavra, sizeof(palavra), stdin);								// pega a palavra não ignorando o espaço
 
 	for (int counter = 0; counter != strlen(palavra) - 1; counter++) {	// pega todos os elementos da palavra
 		if (palavra[counter] != palavra[strlen(palavra) - counter - 2]) {

@@ -22,11 +22,20 @@ int main(int argc,char* argv[]) {
 	float fahrenheit;
 
 	printf("Célsius\t\tFahrenheit\n");
-
-	for (float celsius = -10; celsius <= 50; celsius += 10) {
-		fahrenheit = 1.8*celsius + 32;
-		printf("%.2f\t\t%.2f\n", celsius, fahrenheit);
-	}
+	fahrenheit = 1.8*(-10) + 32;
+	printf("-10.0\t\t%.2f\n", fahrenheit);
+	fahrenheit = 1.8*(0) + 32;
+	printf("0.0\t\t%.2f\n", fahrenheit);
+	fahrenheit = 1.8*(10) + 32;
+	printf("10.0\t\t%.2f\n", fahrenheit);
+	fahrenheit = 1.8*(20) + 32;
+	printf("20.0\t\t%.2f\n", fahrenheit);
+	fahrenheit = 1.8*(30) + 32;
+	printf("30.0\t\t%.2f\n", fahrenheit);
+	fahrenheit = 1.8*(40) + 32;
+	printf("40.0\t\t%.2f\n", fahrenheit);
+	fahrenheit = 1.8*(50) + 32;
+	printf("50.0\t\t%.2f\n", fahrenheit);
 
 	return 0;
 }
