@@ -1,10 +1,28 @@
+# Linked List bugfix backlog
+
 # Linked List implementation backlog
+
+#### LinkedList_init
+- Initialize the linked list
+- Implemented at: 30 mar 2022
+
+#### LinkedList_append:
+- Add some Element1D in the end of list
+- Implemented at: 30 mar 2022
 
 #### LinkedList_remove:
 - Remove some Element1D oriented by id
 
+#### LinkedList_printf
+- Print linked list
+- Implemented at: 30 mar 2022
+
 #### LinkedList_insert:
 - Insert some double element oriented by id
+
+#### __Vector1D_goto
+- Go to some element oriented by id
+- Implemented at: 30 mar 2022
 
 # Linked List math functions backlog
 
